@@ -36,10 +36,10 @@ const Launchpad = () => {
             </div>
           </div>
           <div className="flex justify-start gap-10">
-            <button className="bg-black text-white text-lg font-bold py-4 px-8 rounded-xl">
+            <button className="bg-black text-white text-lg font-bold py-4 px-8 rounded-xl hover:bg-blue-500">
               DAO launchpad
             </button>
-            <button className="border-[1px] border-opacity-30 border-black text-black text-lg font-semibold py-4 px-8 rounded-xl">
+            <button className="border-[1px] border-opacity-30 border-black text-black text-lg font-semibold py-4 px-8 rounded-xl hover:bg-blue-500 hover:text-white">
               How to participate
             </button>
           </div>

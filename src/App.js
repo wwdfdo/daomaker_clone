@@ -3,6 +3,7 @@ import Banner from "./components/Banner/Banner";
 import CardsComponent from "./components/CardsComponent/CardsComponent";
 import Header from "./components/Header/Header";
 import Launchpad from "./components/Launchpad/Launchpad";
+import StakeComponent from "./components/StakeComponent/StakeComponent";
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <Banner />
       <CardsComponent />
       <Launchpad />
+      <StakeComponent />
     </>
   );
 }

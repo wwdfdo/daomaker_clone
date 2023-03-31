@@ -5,6 +5,7 @@ module.exports = {
     extend: {
       backgroundImage: {
         "banner-bg": "url('/src/images/banner.webp')",
+        "stake-bg": "url('/src/images/stakebg.webp')",
       },
     },
   },
