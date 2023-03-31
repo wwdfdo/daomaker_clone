@@ -7,7 +7,7 @@ import StakeIconFour from "../../images/stake-icon-4.svg";
 const StakeComponent = () => {
   return (
     <div className="flex w-5/6 mx-auto justify-between  py-20">
-      <div className=" bg-stake-bg bg-cover px-20 py-16 w-[40%]  flex flex-col justify-center rounded-xl gap-5 ">
+      <div className=" bg-stake-bg bg-cover px-20 py-16 w-[40%]  flex flex-col justify-center rounded-3xl gap-5 ">
         <div className="bg-black py-5 w-[100%] px-10 text-white rounded-2xl flex flex-col items-center gap-2">
           <p className="text-6xl font-bold">76M</p>
           <p className="text-lg font-semibold ">DAO locked</p>
