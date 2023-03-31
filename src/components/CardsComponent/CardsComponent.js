@@ -14,7 +14,7 @@ const CardsComponent = () => {
         At DAO Maker we bring great solutions to our users everyday. Discover
         our latest products.
       </h3>
-      <div className="flex flex-wrap gap-5 w-5/6 justify-center mx-auto">
+      <div className="flex flex-wrap gap-5 w-[95%] justify-center mx-auto">
         <div className=" w-[28%] flex flex-col items-center gap-5 py-10 px-6 rounded-2xl justify-center shadow-lg">
           <img src={CardIconOne} className="w-[80px]" alt="" />
           <h4 className="text-[30px] font-[700]">DAO Launchpad</h4>
