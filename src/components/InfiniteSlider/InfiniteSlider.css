@@ -1,0 +1,35 @@
+@keyframes scroll {
+  0% {
+    left: -100%;
+  }
+  100% {
+    left: 0;
+  }
+}
+
+.animate {
+  animation: scroll 60s linear infinite;
+}
+
+@keyframes slide {
+  0% {
+    left: 0;
+  }
+  100% {
+    left: -100%;
+  }
+}
+
+.leftslider {
+  animation: slide 60s linear infinite;
+}
+
+.first-slider:hover {
+  animation-play-state: paused;
+}
+.second-slider:hover {
+  animation-play-state: paused;
+}
+.third-slider:hover {
+  animation-play-state: paused;
+}
